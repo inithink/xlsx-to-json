@@ -18,7 +18,6 @@ export function xlsxToJSON(path: string): Result[] {
       sheetName,
       content: content as any,
     });
-    console.log(content);
   }
   return result;
 }
